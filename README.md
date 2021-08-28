@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="https://camo.githubusercontent.com/92ec9eb7eeab7db4f5919e3205918918c42e6772562afb4112a2909c1aaaa875/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313630373535343338352f7265706f7369746f726965732f6e6578742d6a732f6e6578742d6c6f676f2e706e67" alt="icon" />
+  <a href="https://github.com/kishore007k">
+    <img src="https://user-images.githubusercontent.com/34863222/130753775-7f5c3274-e203-4eb7-b9d8-e57be393c0df.png" alt="icon" />
+  </a>
 </p>
 
 <br />
@@ -20,10 +22,30 @@ This template uses [Next.Js]("https://github.com/vercel/next.js") + [Mongoose]("
 
 ## How to use:
 
-- Clone this repository or use the following code
+- Clone this repository or use the following code `https://github.com/kishore007k/next-with-mongoose.git`.
+- This will clone the repository to your system.
+- Add your MongoDB connection string to the `MONGODB_URL` inside the **next.config.js** in the root directory.
 
-    ``
+<br />
+
+---
+
+## Commands:
+
+```js
+  // npm
+  npm run dev
+
+  // (or)
+
+  // Yarn
+  yarn build
+```
+
+<br />
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/34863222/131228260-096334c8-c906-44c8-a4f0-cf3af7d49ac0.png" />
+  <a href="https://github.com/kishore007k">
+    <img src="https://user-images.githubusercontent.com/34863222/131228260-096334c8-c906-44c8-a4f0-cf3af7d49ac0.png" />
+  </a>
 </p>
