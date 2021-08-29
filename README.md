@@ -83,7 +83,7 @@ export default function handler(req, res) {
 <br />
 
 <p align="center">
-  <a href="https://github.com/kishore007k">
+  <a href="https://github.com/kishore007k" target="_blank">
     <img src="https://user-images.githubusercontent.com/34863222/131228260-096334c8-c906-44c8-a4f0-cf3af7d49ac0.png" />
   </a>
 </p>
