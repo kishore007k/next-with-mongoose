@@ -29,8 +29,6 @@ This template uses [Next.Js]("https://github.com/vercel/next.js") + [Mongoose]("
 
 <br />
 
----
-
 ## Commands:
 
 ```bash
@@ -40,8 +38,6 @@ This template uses [Next.Js]("https://github.com/vercel/next.js") + [Mongoose]("
 
   yarn build
 ```
-
----
 
 <br />
 
