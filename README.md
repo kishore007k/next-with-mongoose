@@ -18,7 +18,7 @@
 
 ## Contains:
 
-This template uses [Next.Js]("https://github.com/vercel/next.js") + [Mongoose]("https://mongoosejs.com/") + [TailwindCSS]("https://tailwindcss.com/"). The site is deployed in [Vercel]("https://vercel.com/kishore007k/next-with-mongoose").
+This template uses [Next.Js](https://github.com/vercel/next.js) + [Mongoose](https://mongoosejs.com/) + [TailwindCSS](https://tailwindcss.com/). The site is deployed in [Vercel](https://vercel.com/kishore007k/next-with-mongoose).
 
 ## How to use:
 
