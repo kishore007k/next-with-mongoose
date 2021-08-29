@@ -25,6 +25,7 @@ This template uses [Next.Js]("https://github.com/vercel/next.js") + [Mongoose]("
 - Clone this repository or use the following code `https://github.com/kishore007k/next-with-mongoose.git`.
 - This will clone the repository to your system.
 - Add your MongoDB connection string to the `MONGODB_URL` inside the **next.config.js** in the root directory.
+- To connect to the database you can either create a Model and use the `connectDB()` function to connect to the MongoDB database.
 
 <br />
 
@@ -32,14 +33,55 @@ This template uses [Next.Js]("https://github.com/vercel/next.js") + [Mongoose]("
 
 ## Commands:
 
-```js
-  // npm
+```bash
   npm run dev
 
-  // (or)
+  # (or)
 
-  // Yarn
   yarn build
+```
+
+---
+
+<br />
+
+### MongoDB Database Connection:
+
+The following code will let the user to connect to the MongoDB database. This is located inside the `util/connectDb.js` in the root directory.
+
+```js
+import mongoose from "mongoose";
+
+const connectDB = () => {
+	if (mongoose.connections[0].readyState) {
+		console.log("Already connected.");
+		return;
+	}
+	mongoose.connect(process.env.MONGODB_URL, (err) => {
+		if (err) throw err;
+		console.log("connected to MongoDB");
+	});
+};
+
+export default connectDB;
+```
+
+<br />
+
+### How to Connect to Database:
+
+To connect to the Database you can simply call the `connectDB()` function.
+
+```js
+// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+
+import connectDB from "../../utils/connectDB";
+
+connectDB();
+
+export default function handler(req, res) {
+	res.status(200).json({ name: "John Doe" });
+}
 ```
 
 <br />
