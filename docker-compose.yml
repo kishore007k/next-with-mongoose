@@ -1,0 +1,11 @@
+version: "3.3"
+
+services:
+  next_with_mongoose:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports: 
+      - 3000:3000
+    volumes: 
+      - .:/next_with_mongoose
